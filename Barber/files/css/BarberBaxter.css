@@ -1,0 +1,383 @@
+body{
+	min-width: 960px;
+	color: #000000;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 24px;
+	text-transform: uppercase;
+	font-family: 'PT Sans Narrow', Arial, sans-serif;
+}
+
+
+.shop-header{
+	background-color: #000000;
+}
+
+.container{
+	width: 960px;
+	padding: 0 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.main-navigation{
+	float: left;
+	min-width: 720px;
+}
+
+.main-navigation ul{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	font-size: 0;
+}
+
+.main-navigation li{
+	display: inline-block;
+	font-size: 16px;
+	line-height: 20px;
+	vertical-align: top;
+}
+
+.main-navigation a{
+	display: block;
+	color: #ffffff;
+	text-decoration: none;
+	padding: 25px 20px;
+}
+
+.main-navigation a:hover{
+	background-color: #242424;
+}
+
+.mini-logo-header a{
+	padding: 21px 20px;
+}
+
+.mini-logo-header a:hover{
+	background-color: #000000;
+}
+
+.user-block{
+	float: right;
+	min-width: 80px;
+}
+
+.login{
+	position: relative;
+	text-decoration: none;
+	color: #ffffff;
+	display: inline-block;
+	vertical-align: top;
+	font-size: 16px;
+	line-height: 20px;
+	text-decoration: none;
+	padding-left: 50px;
+	padding-right: 20px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+.login::before{
+	content: "";
+	position: absolute;
+	width: 18px;
+	height: 18px;
+	top: 28px;
+	left: 20px;
+	background: transparent url("../img/icon-login.png") no-repeat;
+	opacity: 0.3;
+}
+
+.login:hover{
+	background-color: #242424;
+}
+
+.login:hover::before{
+	opacity: 1;
+}
+
+.shop-header .container::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+main{
+	background: #f8f5f2 url("../img/bgcontent.png");
+	padding-top: 56px;
+	padding-bottom: 36px;
+}
+
+.shop-navigation{
+	min-width: 720px;
+	margin-bottom: 50px;
+}
+
+.shop-navigation h2{
+	margin: 0;
+	font-size: 30px;
+	line-height: 36px;
+	margin-bottom: 26px;
+}
+
+.shop-navigation ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	font-size: 0;
+}
+
+.shop-navigation li{
+	display: inline-block;
+	font-size: 14px;
+	line-height: 18px;
+}
+
+.shop-navigation a{
+	position: relative;
+	text-decoration: none;
+	color: #000000;
+	display: block;
+	padding-right: 26px;
+	margin-right: 16px;
+}
+
+.shop-navigation a::after{
+	content: "";
+	position: absolute;
+	width: 10px;
+	height: 10px;
+	transform: rotate(45deg);
+	background-color: #000000;
+	top: 4px;
+	right: 0;
+}
+
+.shop-navigation li:last-of-type a{
+	color: #aba9a7;
+}
+
+.shop-navigation li:last-of-type a:after{
+	content: "";
+	position: absolute;
+	width: 0;
+	height: 0;
+}
+
+.shop-gallery{
+	width: 460px;
+	font-size: 0;
+	float: left;
+	padding: 0;
+}
+
+.shop-gallery img{
+	display: inline-block;
+	margin: 0;
+}
+
+.shop-gallery img:first-child{
+	margin-bottom: 0px;
+}
+
+.shop-gallery img:not(:first-child):not(:last-child){
+	margin-right: 19px;
+}
+
+.shop-information{
+	float: right;
+	min-width: 400px;
+	padding: 0;
+}
+
+.the-information span{
+	display: block;
+	position: relative;
+	margin-bottom: 38px;
+}
+
+.the-information p{
+	margin: 0;
+	margin-bottom: 38px;
+}
+
+.the-information span::after{
+	position: absolute;
+	content: "артикуль: dexter-ae";
+	color: #aeaeae;
+	top: 0;
+	right: 0;
+}
+
+.btn-and-prise{
+	font-size: 0;
+	margin-bottom: 38px;
+}
+
+.btn-and-prise span{
+	display: inline-block;
+	padding: 12px 28px;
+	background-color: #e5e5e5;
+	font-size: 14px;
+	line-height: 18px;
+}
+
+.btn-and-prise a{
+	display: inline-block;
+	background-color: #000000;
+	color: #ffffff;
+	padding: 12px 18px;
+	text-decoration: none;
+	font-size: 14px;
+	line-height: 18px;
+}
+
+.btn-and-prise a:hover{
+	background-color: #663d15;
+}
+
+.list-of-ingredients h2{
+	font-size: 24px;
+	line-height: 30px;
+	margin: 0;
+	margin-bottom: 34px;
+}
+
+.list-of-ingredients ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.list-of-ingredients li{
+	position: relative;
+	padding-left: 20px;
+}
+
+.list-of-ingredients li::before{
+	content: "";
+	position: absolute;
+	display: block;
+	width: 10px;
+	height: 10px;
+	transform: rotate(45deg);
+	background-color: #000000;
+	left: 0;
+	top: 7px;
+}
+
+.btn-and-prise::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.main-baxter::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.shop-footer{
+	background: #222222 url("../img/GrayTint.jpg");
+	padding-bottom: 40px;
+}
+
+.shop-footer p{
+	margin: 0;
+	padding: 0;
+	color: #ffffff;
+}
+
+.shop-footer h2{
+	color: #ffffff;
+	margin: 0;
+	font-size: 14px;
+	line-height: 18px;
+	margin-bottom: 16px;
+	text-align: center;
+}
+
+.gradient{
+	height: 41px;
+	background-image: linear-gradient(to bottom, #000000, rgba(0, 0, 0, 0));
+	margin-bottom: 19px;
+}
+
+.footer-contacts{
+	float: left;
+	width: 320px;
+	margin-right: 60px;
+}
+
+.footer-contacts a{
+	color: #ffffff;
+}
+
+.footer-contacts a:hover{
+	text-decoration: none;
+}
+
+.footer-social{
+	float: left;
+	width: 260px;
+	text-align: center;
+}
+
+.social-btn{
+	display: inline-block;
+	width: 43px;
+	height: 43px;
+	font-size: 0;
+	margin: 0 2px;
+}
+
+.social-btn:first-of-type{
+	background: #000000 url("../img/vk.png") no-repeat center;
+}
+
+.social-btn:nth-of-type(2){
+	background: #000000 url("../img/f.png") no-repeat center;
+}
+
+.social-btn:last-of-type{
+	background: #000000 url("../img/inst.png") no-repeat center;
+}
+
+.social-btn:first-of-type:hover{
+	background: #ffffff url("../img/vb.png") no-repeat center;
+}
+
+.social-btn:nth-of-type(2):hover{
+	background: #ffffff url("../img/fb.png") no-repeat center;
+}
+
+.social-btn:last-of-type:hover{
+	background: #ffffff url("../img/instab.png") no-repeat center;
+}
+
+.footer-copyright{
+	float: right;
+	min-width: 140px;
+}
+
+.footer-copyright a{
+	text-decoration: none;
+	color: #ffffff;
+	display: block;
+	text-align: center;
+	background-color: #000000;
+	padding: 12px 24px;
+}
+
+.footer-copyright a:hover{
+	background-color: #ffffff;
+	color: #000000;
+}
+
+.shop-footer .container::after{
+	content: "";
+	display: block;
+	clear: both;
+}

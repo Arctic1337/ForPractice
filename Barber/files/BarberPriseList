@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="utf-8">
+		<title>Прайс-лист</title>
+		<link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&subset=cyrillic" rel="stylesheet">
+		<link rel="stylesheet" href="css/normalize.css" type="text/css" media="screen" title="no title">
+		<link rel="stylesheet" href="css/BarberPriceList.css" type="text/css" media="screen" title="no title">
+	</head>
+	<body>
+		<header class="main-header">
+            <div class="container">
+                <nav class="main-navigation">
+                    <ul>
+						<li class="mini-logo-header">
+							<a href="#">
+								<img src="img/Logo.png" alt="лого" width="111" height="24"/>
+							</a>
+						</li>
+                        <li>
+                            <a href="#">Информация</a>
+                        </li>
+                        <li>
+                            <a href="#">Новости</a>
+                        </li>
+                        <li>
+                            <a href="#">Прайс-лист</a>
+                        </li>
+                        <li>
+                            <a href="#">Магазин</a>
+                        </li>
+                        <li>
+                            <a href="#">Контакты</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="user-block">
+                    <a href="#" class="login">Вход</a>
+                </div>
+            </div>
+        </header>
+		<main>
+			<div class="container">
+				<div class="prise-list-header">
+					<h1>Прайс-лист</h1>
+					<ul>
+						<li>
+							<a href="#" class="mini-black-square">Главная</a>
+						</li>
+						<li>
+							<span class="current-page">Прайс-лист</span>
+						</li>
+					</ul>
+				</div>
+				<h2 class="mens-classic">Истинно мужская классика</h2>
+				<div class="prise-and-tools">
+					<div class="prise-left">
+						<h2>Мы используем только <br> лучшие средства</h2>
+						<ul>
+							<li>Baxter of california</li>
+							<li>Mr. Natty</li>
+							<li>Suavecito</li>
+							<li>Malin + Goetz</li>
+						</ul>
+						<h2>Несколько слов о нас:</h2>
+						<p>
+							Наша парикмазерская занимается исключительно мускими <br>
+							стрижками. Стрижка каждого клиента для нас - это уникальная <br>
+							и продуманная до мелочей работа. Мы не работаем на <br>
+							количество, мы делаем качество.
+						</p>
+					</div>
+					<div class="prise-right">
+						<h2>Цены на услуги <br> наших мастеров:</h2>
+						<table>
+							<tr>
+								<td>
+									Стрижка
+								</td>
+								<td>
+									1500 Р.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Стрижка бороды
+								</td>
+								<td>
+									500 Р.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Накрутка усов
+								</td>
+								<td>
+									350 Р.
+								</td>
+							</tr>
+						</table>
+						<p>
+							Наша мастерская расположена в центре города, поэтому <br>
+							сделать стильную стрижку можно в любое время, даже в <br>
+							обеденный перерыв. Здесь вы можете погрузиться в удобную <br>
+							для вас атмосферу, чувствовать себя комфортно и свобдно!
+						</p>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer class="main-footer">
+			<div class="gradient">
+			</div>
+            <div class="container">
+                <section class="footer-contacts">
+                    <p>
+                        Барбершоп "Бородтнский"<br>
+                        Адрес: г. Санкт-Петербург, б. Конюшенная, д. 19/8 <br>
+                        <a href="#" class="">Как нас найти</a><br>
+                        Телефон: +7(495)666-02-66
+                    </p>
+                </section>
+                <section class="footer-social">
+                    <h2>
+                        Давайте дружить!
+                    </h2>
+                    <a href="#" class="social-btn">Вконтакте</a>
+                    <a href="#" class="social-btn">Фейсбук</a>
+                    <a href="#" class="social-btn">Инстаграм</a>
+                </section>
+                <section class="footer-copyright">
+                    <h2>
+                        Разработано:
+					</h2>
+                    <a href="#">HTMLacademy.ru</a>
+                </section>
+            </div>
+        </footer>
+	</body>
+</html>

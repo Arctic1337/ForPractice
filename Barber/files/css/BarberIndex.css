@@ -1,0 +1,404 @@
+body{
+	min-width: 960px;
+	color: #ffffff;
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-family: 'PT Sans Narrow', "Arial", sans-serif;
+	background: #000000 url("../img/barbershop-index.jpg") no-repeat center top;
+}
+
+.main-header{
+	background-color: #000000;
+	color: #ffffff;
+	margin-bottom: 60px;
+}
+
+.container{
+	width: 960px;
+	padding: 0 10px;
+	margin: 0 auto;
+}
+
+.main-header .container:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.main-navigation{
+	width: 780px;
+	float: left;
+}
+
+.main-navigation ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-size: 0;
+}
+
+.main-navigation li{
+	display: inline-block;
+	vertical-align: top;
+	font-size: 16px;
+	line-height: 20px;
+}
+
+.main-navigation a{
+	display: block;
+	color: #ffffff;
+	text-decoration: none;
+	padding: 25px 20px;
+}
+
+.main-navigation a:hover{
+	background-color: #242424;
+}
+
+.user-block{
+	min-width: 80px;
+	float: right;
+}
+
+.login{
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+	font-size: 16px;
+	line-height: 20px;
+	color: #ffffff;
+	text-decoration: none;
+	padding-left: 50px;
+	padding-right: 20px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+.login::before{
+	content: "";
+	width: 18px;
+	height: 18px;
+	position: absolute;
+	top: 28px;
+	left: 20px;
+	background: transparent url("../img/icon-login.png") no-repeat;
+	opacity: 0.3;
+}
+
+.login:hover{
+	background-color: #242424;
+}
+
+.login:hover::before{
+	opacity: 1;
+}
+
+.index-logo{
+	width: 368px;
+	height: 204px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 25px;
+}
+
+.features{
+	margin-bottom: 80px;
+}
+
+.features-item{
+	float: left;
+	width: 300px;
+	margin-right: 20px;
+	text-align: center;
+}
+
+.features-item:last-child{
+	float: right;
+	margin-right: 0;
+}
+
+.features-name{
+	position: relative;
+	display: block;
+	font-size: 30px;
+	line-height: 42px;
+	margin-bottom: 30px;
+	padding-bottom: 35px;
+}
+
+.features-item p{
+	margin: 10px;
+	margin-bottom: 0;
+}
+
+.features-name::after{
+	content: "";
+	display: block;
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	background-color: #ffffff;
+	left: 50%;
+	bottom: 0;
+	margin-left: -10px;
+	transform: rotate(45deg);
+}
+
+.features::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+
+.index-content{
+	padding: 50px 80px;
+	margin-bottom: 35px;
+	background: url("../img/lcontentline.png") no-repeat center,
+	#f8f5f2 url("../img/bgcontent.png");
+	color: #000000;
+	font-weight: bold;
+}
+
+
+.index-content-title{
+	margin: 0;
+	margin-bottom: 25px;
+	font-size: 30px;
+	line-height: 42px;
+}
+
+.index-content p{
+	margin: 0;
+	margin-bottom: 25px;
+}
+
+.news-preview{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	padding-right: 35px;
+}
+
+.news-preview li{
+	margin-bottom: 25px;
+}
+
+.news-preview p{
+	margin: 0;
+}
+
+.news-preview time{
+	font-weight: normal;
+	text-transform: capitalize;
+}
+
+.index-content-left{
+	float: left;
+	width: 380px;
+}
+
+.index-content-right{
+	float:right;
+	width: 300px;
+}
+
+.btn{
+	color: #ffffff;
+	background-color: #000000;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	text-decoration: none;
+	vertical-align: top;
+	text-align: center;
+	margin-right: 16px;
+
+	display: inline-block;
+	padding: 10px 33px;
+
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 700px;
+	text-transform: uppercase;
+	font-family: 'PT Sans Narrow', "Arial", sans-serif;
+}
+
+.btn:hover,
+.btn:active{
+	background-color: #663d15;
+}
+
+.btn:disabled{
+	cursor: default;
+	opacity: 0.5;
+}
+
+.btn:disabled:hover{
+	background-color: #000000;
+}
+
+.gallery{
+	height: 260px;
+	position: relative;
+}
+
+.gallery-content{
+	background-color: #cccccc;
+	border: 7px solid #ffffff;
+	height: 164px;
+	margin: 0;
+}
+
+.gallery-content img{
+	width: 286px;
+	height: 164px;
+}
+
+.gallery .btn{
+	position: absolute;
+	bottom: 0;
+	width: 140px;
+	margin: 0;
+}
+
+.gallery-prev{
+	left: 0;
+}
+
+.gallery-next{
+	right: 0;
+}
+
+.index-content::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.appointment-form input{
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	background-color: #f9f6f3;
+	border: 2px solid #000000;
+	outline: none;
+
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 700px;
+	text-transform: uppercase;
+	font-family: 'PT Sans Narrow', "Arial", sans-serif;
+
+	width: 106px;
+	padding: 7px 14px;
+}
+
+.appointment-form input:nth-child(2n){
+	margin-right: 0;
+}
+
+.appointment-form .btn{
+	clear: both;
+	width: 100%;
+}
+
+.appointment-form input:focus {
+	border-color: #663d15;
+}
+
+.main-footer{
+	margin-top: 30px;
+	background: #252525 url("../img/GrayTint.jpg");
+	padding-top: 60px;
+	padding-bottom: 40px;
+	font-weight: bold;
+}
+
+.main-footer p{
+	margin: 0;
+}
+
+.footer-contacts{
+	width: 320px;
+	float: left;
+	margin-right: 60px;
+}
+
+.footer-contacts a{
+	color: #ffffff;
+}
+
+.footer-contacts a:hover{
+	text-decoration: none;
+}
+
+.footer-social{
+	width: 180px;
+	float: left;
+	text-align: center;
+}
+
+.footer-social p{
+	margin-bottom: 15px;
+}
+
+.social-btn{
+	display: inline-block;
+	width: 43px;
+	height: 43px;
+	font-size: 0;
+	margin: 0 2px;
+}
+
+.footer-social a:first-of-type{
+	background: #000000 url("../img/vk.png") no-repeat center;
+}
+
+.footer-social a:nth-of-type(2){
+	background: #000000 url("../img/f.png") no-repeat center;
+}
+
+.footer-social a:last-of-type{
+	background: #000000 url("../img/inst.png") no-repeat center;
+}
+
+.footer-social a:first-of-type:hover{
+	background: #ffffff url("../img/vb.png") no-repeat center;
+}
+
+.footer-social a:nth-of-type(2):hover{
+	background: #ffffff url("../img/fb.png") no-repeat center;
+}
+
+.footer-social a:last-of-type:hover{
+	background: #ffffff url("../img/instab.png") no-repeat center;
+}
+
+.footer-copyright{
+	max-width: 140px;
+	float:right;
+	text-align: center;
+}
+
+.footer-copyright p{
+	margin-bottom: 15px;
+}
+
+.footer-copyright .btn{
+	margin-right: 0;
+	font-weight: bold;
+}
+
+.footer-copyright .btn:hover{
+	color: #000000;
+	background-color: #ffffff;
+}
+
+.main-footer .container::after{
+	content: "";
+	display: block;
+	clear: both;
+}
