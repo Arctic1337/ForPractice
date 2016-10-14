@@ -26,7 +26,7 @@
                         <li>
                             <a href="#">Прайс-лист</a>
                         </li>
-                        <li>
+                        <li class="active">
                             <a href="#">Магазин</a>
                         </li>
                         <li>
@@ -53,17 +53,17 @@
 						<li>
 							<a href="#">Средства для ухода</a>
 						</li>
-						<li>
-							<a href="#">Набор для путешестий "Baxter of California</a>
+						<li class="current">
+							Набор для путешестий "Baxter of California"
 						</li>
 					</ul>
 				</div>
 				<div class="main-baxter">
 					<div class="shop-gallery">
-						<img src="img/top-center-gal.png" alt="главная" width="460" height="500"/>
-						<img src="img/bottom-left-gal.png" alt="нижняя левая" width="140" height="150"/>
-						<img src="img/bottom-center-gal.png" alt="нижняя средня" width="140" height="150"/>
-						<img src="img/bottom-right-gal.png" alt="нижняя правая" width="140" height="150"/>
+						<img src="img/top-center-gal.jpg" alt="главная" width="460" height="498"/>
+						<img src="img/bottom-left-gal.jpg" alt="нижняя левая" width="140" height="149"/>
+						<img src="img/bottom-center-gal.jpg" alt="нижняя средня" width="140" height="149"/>
+						<img src="img/bottom-right-gal.jpg" alt="нижняя правая" width="140" height="149"/>
 					</div>
 					<div class="shop-information">
 						<div class="the-information">
