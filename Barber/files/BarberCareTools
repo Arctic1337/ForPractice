@@ -26,7 +26,7 @@
                         <li>
                             <a href="#">Прайс-лист</a>
                         </li>
-                        <li>
+                        <li class="active">
                             <a href="#">Магазин</a>
                         </li>
                         <li>
@@ -50,8 +50,8 @@
 						<li>
 							<a href="#">Магазин</a>
 						</li>
-						<li>
-							<span class="current-page">средства для ухода</span>
+						<li class="current">
+							Средства для ухода
 						</li>
 					</ul>
 				</div>

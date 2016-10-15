@@ -37,6 +37,22 @@ body{
 	vertical-align: top;
 }
 
+.main-navigation .active{
+	position: relative;
+	background-color: none;
+}
+
+.main-navigation .active::after{
+	content: "";
+	display: block;
+	position: absolute;
+	height: 4px;
+	background-color: #ffffff;
+	bottom: 0;
+	left: 20px;
+	right: 20px;
+}
+
 .main-navigation a{
 	display: block;
 	color: #ffffff;
@@ -48,8 +64,12 @@ body{
 	background-color: #242424;
 }
 
+.main-navigation .active a:hover{
+	background-color: #000000;
+}
+
 .mini-logo-header a{
-	padding: 21px 20px;
+	padding: 22px 20px 20px 20px;
 }
 
 .mini-logo-header a:hover{
@@ -141,6 +161,10 @@ main{
 	margin-right: 15px;
 }
 
+.care-tools-header a:hover{
+	text-decoration: underline;
+}
+
 .care-tools-header a::after{
 	content: "";
 	position: absolute;
@@ -152,13 +176,8 @@ main{
 	transform: rotate(45deg);
 }
 
-.care-tools-header .current-page{
-	text-align: top;
+.care-tools-header .current{
 	color: #aba9a7;
-}
-
-.forms-and-goods{
-
 }
 
 .for-forms{
@@ -245,7 +264,7 @@ main{
 	color: #663d15;
 }
 
-.for-forms .first-form label:last-child{
+.for-forms .second-form label:last-child{
 	margin-bottom: 0;
 }
 

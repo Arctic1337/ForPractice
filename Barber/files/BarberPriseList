@@ -23,7 +23,7 @@
                         <li>
                             <a href="#">Новости</a>
                         </li>
-                        <li>
+                        <li class="active">
                             <a href="#">Прайс-лист</a>
                         </li>
                         <li>
@@ -47,8 +47,8 @@
 						<li>
 							<a href="#" class="mini-black-square">Главная</a>
 						</li>
-						<li>
-							<span class="current-page">Прайс-лист</span>
+						<li class="current">
+							Прайс-лист
 						</li>
 					</ul>
 				</div>

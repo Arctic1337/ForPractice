@@ -39,6 +39,22 @@ body{
 	vertical-align: top;
 }
 
+.main-navigation .active{
+	position: relative;
+	background-color: none;
+}
+
+.main-navigation .active::after{
+	content: "";
+	display: block;
+	position: absolute;
+	height: 4px;
+	background-color: #ffffff;
+	bottom: 0;
+	left: 20px;
+	right: 20px;
+}
+
 .main-navigation a{
 	display: block;
 	color: #ffffff;
@@ -50,8 +66,12 @@ body{
 	background-color: #242424;
 }
 
+.main-navigation .active a:hover{
+	background-color: #000000;
+}
+
 .mini-logo-header a{
-	padding: 21px 20px;
+	padding: 22px 20px 20px 20px;
 }
 
 .mini-logo-header a:hover{
@@ -143,6 +163,10 @@ main{
 	margin-right: 16px;
 }
 
+.shop-navigation a:hover{
+	text-decoration: underline;
+}
+
 .shop-navigation a::after{
 	content: "";
 	position: absolute;
@@ -154,15 +178,8 @@ main{
 	right: 0;
 }
 
-.shop-navigation li:last-of-type a{
+.shop-navigation .current{
 	color: #aba9a7;
-}
-
-.shop-navigation li:last-of-type a:after{
-	content: "";
-	position: absolute;
-	width: 0;
-	height: 0;
 }
 
 .shop-gallery{
@@ -175,20 +192,22 @@ main{
 .shop-gallery img{
 	display: inline-block;
 	margin: 0;
+	box-shadow: 0 0 30px -8px #000000;
 }
 
 .shop-gallery img:first-child{
-	margin-bottom: 0px;
+	margin-bottom: 10px;
 }
 
 .shop-gallery img:not(:first-child):not(:last-child){
-	margin-right: 19px;
+	margin-right: 20px;
 }
 
 .shop-information{
 	float: right;
 	min-width: 400px;
 	padding: 0;
+	margin-top: 30px;
 }
 
 .the-information span{
@@ -207,7 +226,7 @@ main{
 	content: "артикуль: dexter-ae";
 	color: #aeaeae;
 	top: 0;
-	right: 0;
+	right: 16px;
 }
 
 .btn-and-prise{
