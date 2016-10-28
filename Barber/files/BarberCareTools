@@ -206,5 +206,24 @@
                 </section>
             </div>
         </footer>
+		<div class="modal-content">
+            <button type="button" class="modal-content-close" title="Закрыть">Закрыть</button>
+            <h2>Личный кабинет</h2>
+            <p>
+                Введите пожалуйста свой логин и пароль
+            </p>
+            <form class="login-form" action="index.html" method="post">
+                <input type="text" class="icon-user" name="login" placeholder="Логин">
+                <input type="password" class="icon-password" name="name" placeholder="Пароль">
+                <label class="login-checkbox">
+                    <input type="checkbox" name="rememer">
+                    <span class="checkbox-indicator"></span>
+                    Запомните меня
+                </label>
+                <a href="#" class="restore">Я забыл пароль!</a>
+                <button type="submit" class="btn">Войти</button>
+            </form>
+        </div>
+		<script src="script/popupMenuOther.js"></script>
 	</body>
 </html>

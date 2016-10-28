@@ -176,6 +176,6 @@
             <div class="yandex-map" id="yandex-map">
             </div>
         </div>
-        <script src="script/popupMenu.js"></script>
+        <script src="script/popupMenuIndex.js"></script>
     </body>
 </html>
