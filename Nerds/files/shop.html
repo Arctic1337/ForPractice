@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+	<head lang="ru">
+		<meta charset="utf-8">
+		<title>Магазин</title>
+		<link href="https://fonts.googleapis.com/css?family=Roboto:400,500&amp;subset=cyrillic-ext" rel="stylesheet">
+		<link rel="stylesheet" href="css/normalize.css" type="text/css" media="screen" title="no title">
+		<link rel="stylesheet" href="css/shop.css" type="text/css" media="screen" title="no title">
+	</head>
+	<body>
+		<header class="shop-header">
+			<div class="container">
+				<nav class="shop-navigation clearfix">
+					<a href="#" class="shop-logo">
+						<img src="img/IndexLogo.png" alt="Основной логотип" width="139" height="56"/>
+					</a>
+					<ul>
+						<li>
+							<a href="#">Студия</a>
+						</li>
+						<li>
+							<a href="#">Клиенты</a>
+						</li>
+						<li>
+							<a href="#">Магазин</a>
+						</li>
+						<li>
+							<a href="#">Контакты</a>
+						</li>
+						<li>
+							<a href="#" class="special">Корзина</a>
+						</li>
+					</ul>
+				</nav>
+				<h1>Добро пожаловать в магазин готовых макетов</h1>
+			</div>
+		</header>
+		<main class="shop-main">
+			<div class="container clearfix">
+				<form class="shop-form" action="index.html" method="post" oninput="costout.value = cost.value">
+					<fieldset class="range clearfix">
+						<legend>Стоимость:</legend>
+						<div class="for-range">
+							<input type="range" name="cost" min="0" max="15000" value="7500">
+						</div>
+						<div class="from">
+							<span class="from-first">от</span><span class="from-second">0</span>
+						</div>
+						<div class="to">
+							<span class="to-first">до</span><output name="costout" class="costout">7500</output>
+						</div>
+					</fieldset>
+					<fieldset class="radio">
+						<legend>Сетка:</legend>
+						<label for="adaptive">
+						<input type="radio" name="web" value="adaptive" id="adaptive" checked>
+						<span class="radio-indicator"></span>Адаптивная</label> <br>
+						<label for="fixed">
+						<input type="radio" name="web" value="fixed" id="fixed">
+						<span class="radio-indicator"></span>Фиксированная</label> <br>
+						<label for="rubber">
+						<input type="radio" name="web" value="rubber" id="rubber">
+						<span class="radio-indicator"></span>Резиновая</label> <br>
+					</fieldset>
+					<fieldset class="checkbox">
+						<legend>Особенности:</legend>
+						<label for="slider">
+						<input type="checkbox" name="slider" id="slider" checked>
+						<span class="checkbox-indicator"></span>Слайдер</label> <br>
+						<label for="advantages">
+						<input type="checkbox" name="advantages" id="advantages">
+						<span class="checkbox-indicator"></span>Блок преимуществ</label> <br>
+						<label for="news">
+						<input type="checkbox" name="news" id="news" checked>
+						<span class="checkbox-indicator"></span>Новости</label> <br>
+						<label for="gallery">
+						<input type="checkbox" name="gallery" id="gallery">
+						<span class="checkbox-indicator"></span>Галерея</label> <br>
+						<label for="basket">
+						<input type="checkbox" name="basket" id="basket">
+						<span class="checkbox-indicator"></span>Корзина</label> <br>
+					</fieldset>
+					<input type="button" name="show" value="Показать" class="show-btn">
+				</form>
+				<div class="right-side">
+					<div class="sorting clearfix">
+						<h6>сортировать:</h6>
+						<ul>
+							<li>
+								<a href="#">По цене</a>
+							</li>
+							<li>
+								<a href="#">По типу</a>
+							</li>
+							<li>
+								<a href="#">По функционалу</a>
+							</li>
+						</ul>
+						<div class="sorting-btns">
+							<a class="down" href="#">down/a>
+                			<a class="up" href="#">up</a>
+						</div>
+					</div>
+					<div class="sites">
+						<div class="site first-site">
+							<div class="site-info">
+								<h2>Aviator</h2>
+								<p>
+									Одностраничный макет с афторским дизайном
+								</p>
+								<a href="#">8000 Р.</a>
+							</div>
+						</div>
+						<div class="site second-site">
+							<div class="site-info">
+								<h2>Sunset</h2>
+								<p>
+									Интернет-магазин с личным кабинетом
+								</p>
+								<a href="#">10000 Р.</a>
+							</div>
+						</div>
+						<div class="site third-site">
+							<div class="site-info">
+								<h2>Forte</h2>
+								<p>
+									Отличный макет для личного блога
+								</p>
+								<a href="#">5000 Р.</a>
+							</div>
+						</div>
+						<div class="site fourth-site">
+							<div class="site-info">
+								<h2>Modern organic thai</h2>
+								<p>
+									Сайт для ресторана быстрого питания
+								</p>
+								<a href="#">12000 Р.</a>
+							</div>
+						</div>
+						<div class="site fifth-site">
+							<div class="site-info">
+								<h2>Avenue</h2>
+								<p>
+									Макет для блога о путешествиях
+								</p>
+								<a href="#">8000 Р.</a>
+							</div>
+						</div>
+						<div class="site sixth-site">
+							<div class="site-info">
+								<h2>Dovetail</h2>
+								<p>
+									Интернет-магазин с галереей товаров
+								</p>
+								<a href="#">14000 Р.</a>
+							</div>
+						</div>
+					</div>
+					<ul class="shop-pages">
+						<li>
+							<a href="#">1</a>
+						</li>
+						<li>
+							<a href="#">2</a>
+						</li>
+						<li>
+							<a href="#">3</a>
+						</li>
+						<li>
+							<a href="#">Следующая</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="contact-us">
+				<div class="container">
+					<div class="address">
+						<span>Nёrds design studio</span>
+						<p>
+							191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8
+						</p>
+						<p>
+							тел. +7(812)275-75-75
+						</p>
+						<a href="#" class="write-btn">Напишите нам</a>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer class="shop-footer">
+			<div class="container clearfix">
+				<div class="social">
+					<a href="#" class="vk">ВК</a>
+					<a href="#" class="facebook">ФейсБук</a>
+					<a href="#" class="instagramm">Инстаграм</a>
+				</div>
+				<div class="lets-befriends">
+					<h2>Давайте дружить, это выгодно!</h2>
+					<p>
+						Скидка 10% для друзей из социальных сетей.
+					</p>
+				</div>
+			</div>
+		</footer>
+		<div class="modal-content">
+			<button type="button" class="modal-content-close" title="Закрыть">Закрыть</button>
+			<form class="modal-form clearfix" action="index.html" method="post">
+				<div class="modal-left">
+					<label for="name">Ваше имя:</label>
+					<input type="text" name="name" placeholder="Представьтесь, пожалуйста" id="name">
+				</div>
+				<div class="modal-right">
+					<label for="email">Ваш e-mail:</label>
+					<input type="email" name="email" placeholder="Для отправки ответа" id="email">
+				</div>
+				<label for="text">Текст письма:</label>
+				<textarea name="ext" rows="8" cols="40" id="text" class="text" placeholder="В свободной форме"></textarea>
+				<button type="submit" class="send-btn">Отправить</button>
+			</form>
+		</div>
+		<script src="script/popUpMenu.js"></script>
+	</body>
+</html>
